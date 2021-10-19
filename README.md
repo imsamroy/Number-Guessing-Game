@@ -17,7 +17,7 @@ Arch (and Arch based distros like Manjaro)- ```sudo pacman -S gcc```
 
 Red Hat- ```sudo yum groupinstall 'Development Tools'```
 
-Fedora- ```sudo dnf groupinstall 'Development Tools'
+Fedora- ```sudo dnf groupinstall 'Development Tools'```
 
 # C++ Setup for Mac
 Download the GCC compiler for Mac- ```xcode-select --install```
