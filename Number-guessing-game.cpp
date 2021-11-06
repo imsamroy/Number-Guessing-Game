@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-  int randomNumber, Guess, Chances, chanceLimit, endNum, startNum;
+  int randomNumber, guess, chanceLimit, endNum, startNum;
   char numChoice, chanceChoice, yesNo;
   startNum = 1;
 
@@ -22,55 +22,74 @@ int main()
     cout << "[b] 1 to 10" <<endl;
     cout << "[c] 1 to 20" <<endl;
     cout << "[d] 1 to 69" <<endl;
+    cout << "[e] Custom" <<endl;
     cout << "Enter your choice (eg: a, b): ";
     cin >> numChoice;
 
-    switch (numChoice) {
-      case 'a':
-       endNum=5;
-       break;
-      case 'b':
-       endNum=10;
-       break;
-      case 'c':
-       endNum=20;
-       break;
-      case 'd':
-       endNum=69;
-       break;
-      default:
-       cout << "Invalid input" <<endl;
-       return 0;
+    if (numChoice=='a')
+    {
+      startNum=1;
+      endNum=5;
     }
-
+    else if (numChoice=='b')
+    {
+      startNum=1;
+      endNum=10;
+    }
+    else if (numChoice=='c')
+    {
+      startNum=1;
+      endNum=20;
+    }
+    else if (numChoice=='d')
+    {
+      startNum=1;
+      endNum=69;
+    }
+    else if (numChoice=='e')
+    {
+      cout << "Enter the starting number of your custom range: ";
+      cin >> startNum;
+      cout << "Enter the ending number of your custom range: ";
+      cin >> endNum;
+    }
+    
+    else {
+      cout << "Invalid input, please re-run the game with a valid choice";
+    }
+    
     cout << endl << "Chances for the game" <<endl <<endl;
     cout << "[a] 1" <<endl;
     cout << "[b] 2" <<endl;
     cout << "[c] 3" <<endl;
     cout << "[d] 4" <<endl;
-    cout << "[e] 5" <<endl;
+    cout << "[e] Custom" <<endl;
     cout << "Enter your choice (eg: a, b): ";
     cin >>chanceChoice;
 
-    switch (chanceChoice) {
-      case 'a':
-       chanceLimit=1;
-       break;
-      case 'b':
-       chanceLimit=2;
-       break;
-      case 'c':
-       chanceLimit=3;
-       break;
-      case 'd':
-       chanceLimit=4;
-       break;
-      case 'e':
-       chanceLimit=5;
-       break;
-      default:
-       cout << "Invalid input" <<endl;
-       return 0;
+    if (chanceChoice=='a')
+    {
+      chanceLimit=1;
+    }
+    else if (chanceChoice=='b')
+    {
+      chanceLimit=2;
+    }
+    else if (chanceChoice=='c')
+    {
+      chanceLimit=3;
+    }
+    else if (chanceChoice=='d')
+    {
+      chanceLimit=4;
+    }
+    else if (chanceChoice=='e')
+    {
+      cout << "Enter your custom chance limit: ";
+      cin >> chanceLimit;
+    }
+    else {
+      cout << "Invalid input, please re-run the game with a valid choice";
     }
 
     srand((unsigned) time(0));
@@ -78,27 +97,27 @@ int main()
 
     cout << endl << "Now the game starts!" <<endl;
 
-    for ( Chances = 1; Chances <= chanceLimit; Chances++ )
+    for ( int chances = 1; chances <= chanceLimit; chances++ )
     {
         cout<<endl<<"Enter your guess: ";
-        cin>>Guess;
+        cin>>guess;
 
-        if (Guess>endNum || Guess<startNum)
+        if (guess>endNum || guess<startNum)
         {
             cout<<"Invalid input, please enter a valid guess in the range you chose"<<endl<<"Please re-run the game"<<endl;
             break;
         }
 
-        if (Guess==randomNumber && Chances<=chanceLimit)
+        if (guess==randomNumber && chances<=chanceLimit)
         {
             cout<<"That was correct! You won!"<<endl;
             break;
         }
-        else if (Guess!=randomNumber && Chances<chanceLimit)
+        else if (guess!=randomNumber && chances<chanceLimit)
         {
             cout<<"Wrong, please retry"<<endl;
         }
-        else if (Guess!=randomNumber && Chances<=chanceLimit)
+        else if (guess!=randomNumber && chances<=chanceLimit)
         {
             cout<<"Sorry, out of guesses. You Lost. The number was "<<randomNumber<<endl;
         }
