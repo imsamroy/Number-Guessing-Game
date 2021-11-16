@@ -3,7 +3,7 @@ Guess a random number between your selected range within the chances you select 
 
 This project was developed by Sampreet Roy in C++.
 
-If you do not have C++ setup on your system then follow the steps:
+If you do not have C++ compiler setup on your system then follow the steps: (The steps will be about the GCC compiler which is the most popular one)
 
 # C++ Setup for GNU/Linux distributions
 The GCC compiler is normally installed by default in most distributions. You can check by-
