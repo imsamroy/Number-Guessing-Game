@@ -1,34 +1,29 @@
 # Number-Guessing-Game
-Guess a random number between your selected range within the chances you select to win the game!
-
-This project was developed by Sampreet Roy in C++.
-
-If you do not have C++ compiler setup on your system then follow the steps: (The steps will be about the GCC compiler which is the most popular one)
+Guess a random number between your selected range within the chances you select to win the game!  
+If you do not have a C++ compiler setup on your system then follow the steps: (The steps will be about the GCC compiler)
 
 # C++ Setup for GNU/Linux distributions
 The GCC compiler is normally installed by default in most distributions. You can check by-
-```gcc -version``` or ```gcc -v```
+```gcc -version``` or ```gcc -v``` If it is not installed then:  
+Ubuntu/Debian- ```sudo apt install build-essential```  
+Arch/Manjaro- ```sudo pacman -S gcc```  
+Red Hat- ```sudo yum groupinstall 'Development Tools'```  
+Fedora- ```sudo dnf groupinstall 'Development Tools'```  
 
-Download the GCC compiler for:
-
-Ubuntu- ```sudo apt install build-essential```
-
-Arch (and Arch based distros like Manjaro)- ```sudo pacman -S gcc```
-
-Red Hat- ```sudo yum groupinstall 'Development Tools'```
-
-Fedora- ```sudo dnf groupinstall 'Development Tools'```
+# C++ Setup for Windows
+Setup the MinGW compiler with instructions from any of these or find some other guide :) 
+1) https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j
+2) https://www.geeksforgeeks.org/installing-mingw-tools-for-c-c-and-changing-environment-variable/
+3) https://www.ics.uci.edu/~pattis/common/handouts/mingweclipse/mingw.html
 
 # C++ Setup for Mac
 Download the GCC compiler for Mac- ```xcode-select --install```
 
-# C++ Setup for Windows
-Setup the MinGW compiler with instructions from- https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j or you can find any other way online :D
-
 # Running the game on GNU/Linux distributions
-Clone the repository to your computer- ```git clone https://github.com/imsamroy/Number-Guessing-Game.git```
-
-Then do- ```cd "/home/sampreet/Number-Guessing-Game/" && g++ Number-guessing-game.cpp -o Number-guessing-game && "/home/sampreet/Number-Guessing-Game/"Number-guessing-game``` (assuming that the repository is cloned in your home directory, if not then use the appropriate path for it)
+Go to the releases page (https://github.com/imsamroy/Number-Guessing-Game/releases)  
+Download the "Linux Release" file and run it
 
 # Running the game on Windows
-Go to https://github.com/imsamroy/Number-Guessing-Game and click on the green Code button and then click Download Zip. This will download a zip file. Then extract the zip file. Then open Windows Powershell and do- ```cd "c:\Users\Home\Downloads\Number-Guessing-Game-main\" ; if ($?) { g++ Number-guessing-game.cpp -o Number-guessing-game } ; if ($?) { .\Number-guessing-game }``` (Replace the "c:\Users\Home\Downloads\Number-Guessing-Game-main\" path in the command with the path of the extracted folder if it is different for you)
+Go to the releases page (https://github.com/imsamroy/Number-Guessing-Game/releases)  
+Download the "Windows Release.exe" file and run it  
+**NOTE: If you get a message like: "Windows Protected your PC" then ignore it and click the Run anyway option**
