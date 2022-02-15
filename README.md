@@ -4,7 +4,7 @@ Guess a random number between your selected range within the chances you select 
 # Running the game on GNU/Linux distributions
 Go to the releases page (https://github.com/imsamroy/Number-Guessing-Game/releases)  
 Download the "Linux Release" file and run it  
-**NOTE: Right click the file and go to permissions and make sure it is allowed to run as program**
+**NOTE: Right click the file and go to properties then permissions and make sure it is allowed to run as program**
 
 # Running the game on Windows
 Go to the releases page (https://github.com/imsamroy/Number-Guessing-Game/releases)  
