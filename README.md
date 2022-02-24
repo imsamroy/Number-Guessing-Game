@@ -28,4 +28,4 @@ This is just a simple C++ project I made as a hobby.
 
 - Download the "Windows-Number-Guessing-Game.exe" file and run it  
 
-**NOTE: If you get a message like: "Windows Protected your PC" then ignore it and click the Run anyway option**
+**NOTE: If you get a message like: "Windows Protected your PC" then ignore it and click the Run anyway option (Any exe not recognised by the Microsoft database gets that message even if it is not suspicious, you can search about it online if you want to)**
