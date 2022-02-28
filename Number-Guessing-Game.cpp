@@ -110,16 +110,16 @@ int main()
 
         if (guess==randomNumber && chances<=chanceLimit)
         {
-            cout<<"That was correct! You won!"<<endl;
+            cout<<"That was correct! You won! (Chances: "<<chances<<"/"<<chanceLimit<<")"<<endl;
             break;
         }
         else if (guess!=randomNumber && chances<chanceLimit)
         {
-            cout<<"Wrong, please retry"<<endl;
+            cout<<"Wrong, please retry (Chances: "<<chances<<"/"<<chanceLimit<<")"<<endl;
         }
         else if (guess!=randomNumber && chances<=chanceLimit)
         {
-            cout<<"Sorry, out of guesses. You Lost. The number was "<<randomNumber<<endl;
+            cout<<"Sorry, out of chances! You Lost! The number was: "<<randomNumber<<endl;
         }
 
     }
