@@ -4,7 +4,6 @@
 ![GitHub issues](https://img.shields.io/github/issues/imsamroy/Number-Guessing-Game)
 ![GitHub stars](https://img.shields.io/github/stars/imsamroy/Number-Guessing-Game)
 ![GitHub forks](https://img.shields.io/github/forks/imsamroy/Number-Guessing-Game)
-![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fimsamroy%2FNumber-Guessing-Game)
 
 Guess a random number between your selected range within the chances you select to win the game!  
 
