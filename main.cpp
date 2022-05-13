@@ -1,7 +1,7 @@
 #include<iostream>
 #include<ctime>
 #include<cstdlib>
-#include<conio.h>
+
 using namespace std;
 
 int main()
@@ -131,7 +131,5 @@ int main()
   else {
     cout << "Invalid input, please retry with 'y' or 'n'" <<endl;
   }
-  
   cout << "Press enter to exit (if you are on a Windows machine)" << endl;
-getch();
 }
