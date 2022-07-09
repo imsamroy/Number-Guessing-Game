@@ -15,9 +15,9 @@ This is just a simple C++ project I made as a hobby.
 
 - Go to the releases page (https://github.com/imsamroy/Number-Guessing-Game/releases)  
 
-- Download the **"Linux-Number-Guessing-Game.zip"** file and extract it as a folder.  
+- Download the **"Linux-Number-Guessing-Game"** file  
 
-- Then open a terminal in the extracted folder and run `./Linux-Number-Guessing-Game`  
+- Then open a terminal (make sure it is in same directory) and run `./Linux-Number-Guessing-Game`  
 
 **NOTE: Before running the executables, right click the file and go to properties then permissions and make sure it is allowed to run as program**
 
@@ -27,8 +27,8 @@ This is just a simple C++ project I made as a hobby.
 
 - Go to the releases page (https://github.com/imsamroy/Number-Guessing-Game/releases)  
 
-- Download the **"Windows-Number-Guessing-Game.zip"** file and extract it as a folder.  
+- Download the **"Windows-Number-Guessing-Game.exe"** file  
 
-- Then inside the extracted folder, run the **"Windows-Number-Guessing-Game.exe"** file.  
+- Then simply run the exe file.  
 
 **NOTE: If you get a message like: "Windows Protected your PC" then ignore it and click "More info" then click the Run anyway option (Any exe not recognised by the Microsoft database gets that message even if it is not suspicious, you can search about it online if you want to)**
