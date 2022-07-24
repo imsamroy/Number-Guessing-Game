@@ -10,7 +10,7 @@ int main()
   char numChoice, chanceChoice, yesNo;
   startNum = 1;
 
-    cout << "Welcome to the Number Guessing Game (v1.0.1)!" <<endl;
+    cout << "Welcome to the Number Guessing Game (v1.0.2)!" <<endl;
     cout << "Guess a random number between your selected range within the chances you select to win the game!" <<endl;
     cout << endl << "Project by Sampreet Roy (I use Arch Linux BTW)" <<endl <<endl;
 
@@ -56,7 +56,8 @@ int main()
     }
     
     else {
-      cout << "Invalid input, please re-run the game with a valid choice";
+      cout << "Invalid input, please re-run the game with a valid choice" << endl;
+      return 0;
     }
     
     cout << endl << "Chances for the game" <<endl <<endl;
@@ -90,7 +91,8 @@ int main()
       cin >> chanceLimit;
     }
     else {
-      cout << "Invalid input, please re-run the game with a valid choice";
+      cout << "Invalid input, please re-run the game with a valid choice" << endl;
+      return 0;
     }
 
     srand((unsigned) time(0));
