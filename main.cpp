@@ -57,6 +57,7 @@ int main()
     
     else {
       cout << "Invalid input, please re-run the game with a valid choice" << endl;
+      cout << "Press enter to exit (if you are on a Windows machine)" << endl;
       return 0;
     }
     
@@ -92,6 +93,7 @@ int main()
     }
     else {
       cout << "Invalid input, please re-run the game with a valid choice" << endl;
+      cout << "Press enter to exit (if you are on a Windows machine)" << endl;
       return 0;
     }
 
@@ -134,4 +136,5 @@ int main()
     cout << "Invalid input, please retry with 'y' or 'n'" <<endl;
   }
   cout << "Press enter to exit (if you are on a Windows machine)" << endl;
+getch();
 }
